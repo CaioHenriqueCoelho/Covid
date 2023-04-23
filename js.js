@@ -35,7 +35,7 @@ function criarGrafico(dados) {
     data.addRows(dados.slice(1));
     
     var options = {
-      title: 'Mortes pela COVID',
+      title: 'Mortes pela COVID no Brasil',
       width: window.innerWidth,
       height: window.innerHeight,
       legend: { position: 'top' },
